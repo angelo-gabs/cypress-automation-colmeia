@@ -1,6 +1,6 @@
 # Desafio Colmeia QA
 
-Projeto de automação de testes E2E desenvolvido para validação das funcionalidades da aplicação **Colmeia QA**, utilizando Cypress e JavaScript.
+Projeto de automação de testes E2E desenvolvido para validação das funcionalidades da aplicação **ColmeIA**, utilizando Cypress e JavaScript.
 
 O projeto contempla testes automatizados, documentação de casos de teste manuais e registro de bugs identificados durante a execução dos cenários.
 
@@ -126,15 +126,13 @@ desafio-colmeia-qa/
 
 ## Casos de Teste
 
-* [Login](docs/casos-de-teste/login.md)
-* [Dashboard](docs/casos-de-teste/dashboard.md)
-* [Bancos de Dados](docs/casos-de-teste/database.md)
-
----
+- [Login](docs/casos-de-testes/login.md)
+- [Dashboard](docs/casos-de-testes/dashboard.md)
+- [Bancos de Dados](docs/casos-de-testes/database.md)
 
 ## Bug Reports
 
-* [Relatório de Bugs](docs/bug-reports/bug-report.md)
+- [Relatório de Bugs](docs/bug-reports/bug-report.md)
 
 ---
 
