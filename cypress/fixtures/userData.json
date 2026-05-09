@@ -1,0 +1,16 @@
+{
+    "userSucess":{
+        "email": "qa@test.com",
+        "password": "123456"
+    },
+
+    "userFailed":{
+        "email": "Teste",
+        "password": "Teste"
+    },
+
+    "dataBase" :{
+        "newItem": "teste_banco",
+        "unexistItem": "teste_nao_existe"
+    }
+}
