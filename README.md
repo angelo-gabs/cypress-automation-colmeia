@@ -1,154 +1,58 @@
-# Desafio Colmeia QA
+# Cypress Automation - ColmeIA
 
-Projeto de automação de testes E2E desenvolvido para validação das funcionalidades da aplicação **ColmeIA**, utilizando Cypress e JavaScript.
+## Sobre o Projeto
 
-O projeto contempla testes automatizados, documentação de casos de teste manuais e registro de bugs identificados durante a execução dos cenários.
+Projeto de automação de testes da plataforma ColmeIA desenvolvido com Cypress como parte de um processo seletivo. A automação tem como objetivo validar os principais fluxos da aplicação, incluindo autenticação de usuários, funcionamento do dashboard e manipulação de registros na funcionalidade de banco de dados da aplicação.
 
----
+## Tecnologias Utilizadas
 
-# Objetivos do Projeto
+- Cypress
+- JavaScript
+- Node.js
 
-- Validar funcionalidades críticas da aplicação
-- Identificar falhas funcionais e de usabilidade
-- Documentar cenários de teste e bugs encontrados
-- Aplicar boas práticas de automação E2E
-- Organizar testes e documentação de forma rastreável
+## Cenários Automatizados
 
----
+A automação cobre os principais fluxos da aplicação, incluindo:
 
-# Como Executar o Projeto
+- Autenticação de usuários (login com credenciais válidas e inválidas)
+- Validação de comportamento do dashboard e suas interações
+- Criação, busca, edição, arquivamento e remoção de registros na funcionalidade de banco de dados da aplicação
+- Validação de comportamentos e mensagens da interface em diferentes cenários de uso
+
+Durante a execução dos testes também foram identificados e registrados bugs de comportamento da aplicação.
 
 ## Pré-requisitos
 
 - Node.js instalado
-- Git instalado
+- npm instalado
 
----
-
-## Clonar o repositório
-
-```bash
-git clone https://github.com/angelo-gabs/desafio-colmeia-qa
-````
-
----
-
-## Instalar dependências
+## Instalação
 
 ```bash
 npm install
 ```
 
----
+## Execução dos Testes
 
-## Executar Cypress em modo interativo
+Modo interativo:
 
 ```bash
 npx cypress open
 ```
 
----
-
-## Executar testes em modo headless
+Modo headless:
 
 ```bash
 npx cypress run
 ```
 
----
+## Casos de Teste e Bug Reports
 
-# Estrutura do Projeto
+Os casos de teste detalhados e relatórios de bugs estão documentados separadamente nos links abaixo:
 
-```txt
-desafio-colmeia-qa/
-│
-├── cypress/                    # Estrutura principal dos testes automatizados
-│   ├── e2e/
-│   │   ├── dashboard.spec.cy.js
-│   │   ├── database.spec.cy.js
-│   │   └── login.spec.cy.js
-│   │
-│   ├── fixtures/               # Massa de dados utilizada nos testes
-│   │   └── userData.json
-│   │
-│   ├── pages/                  # Implementação do padrão Page Object Model
-│   │   ├── dashboardPage.js
-│   │   ├── databasePage.js
-│   │   └── loginPage.js
-│   │
-│   └── support/                # Configurações e comandos customizados do Cypress
-│
-├── docs/                       # Documentação de testes e bugs
-│   ├── casos-de-teste/
-│   │   ├── login.md
-│   │   ├── dashboard.md
-│   │   └── database.md
-│   │
-│   └── bug-reports/
-│       └── bug-report.md
-│
-├── cypress.config.js
-├── package.json
-├── package-lock.json
-└── README.md
-```
+- Casos de Teste: [INSERIR LINK AQUI]
+- Bug Reports: [INSERIR LINK AQUI]
 
----
+## Autor
 
-# Funcionalidades Testadas
-
-## Login
-
-* Login com credenciais válidas
-* Validação de credenciais inválidas
-* Validação de campos obrigatórios
-* Fluxo de recuperação de senha
-
-## Dashboard
-
-* Controle de acesso
-* Expansão e recolhimento da sidebar
-* Acesso às funcionalidades do sistema
-* Menu de perfil do usuário
-
-## Bancos de Dados
-
-* Criação de registros
-* Exclusão de registros
-* Arquivamento de itens
-* Persistência de dados
-* Pesquisa e filtragem
-* Reset da listagem
-
----
-
-# Bugs Identificados
-
-Durante a execução dos testes foram identificados bugs relacionados a:
-
-* Controle de acesso
-* Persistência de dados
-* Validação de campos
-* Fluxos incompletos
-* Componentes sem funcionalidade
-* Problemas de usabilidade
-
----
-
-# Documentação
-
-## Casos de Teste
-
-- [Login](docs/casos-de-testes/login.md)
-- [Dashboard](docs/casos-de-testes/dashboard.md)
-- [Bancos de Dados](docs/casos-de-testes/database.md)
-
-## Bug Reports
-
-- [Relatório de Bugs](docs/bug-reports/bug-report.md)
-
----
-
-# Autor
-
-Desenvolvido por Angelo Gabriel Costa Silveira.
+Angelo Gabriel Costa Silveira
