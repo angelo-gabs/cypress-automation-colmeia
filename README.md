@@ -2,7 +2,9 @@
 
 ## Sobre o Projeto
 
-Projeto de automação de testes da plataforma ColmeIA desenvolvido com Cypress como parte de um processo seletivo. A automação tem como objetivo validar os principais fluxos da aplicação, incluindo autenticação de usuários, funcionamento do dashboard e manipulação de registros na funcionalidade de banco de dados da aplicação.
+Projeto de testes da plataforma ColmeIA realizado como parte de um processo seletivo. O trabalho incluiu testes manuais, automação de testes com Cypress e registro de bugs encontrados durante a execução dos cenários.
+
+A automação cobre os principais fluxos da aplicação, incluindo autenticação de usuários, comportamento do dashboard e funcionalidades de banco de dados.
 
 ## Tecnologias Utilizadas
 
