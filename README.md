@@ -1,4 +1,4 @@
-# Cypress Automation - ColmeIA
+# Automação de testes - ColmeIA
 
 ## Sobre o Projeto
 
